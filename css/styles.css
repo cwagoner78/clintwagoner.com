@@ -1,0 +1,337 @@
+a {
+  color: #E6E6E6;
+  /* text-decoration: none; */
+}
+
+a:hover {
+  color: #F1A89E;
+  /* text-decoration: none; */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #220715;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  line-height: 1;
+  font-size: 500%;
+  margin-top: 0;
+  color: #E6E6E6;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #F1A89E;
+  margin: auto auto;
+  padding: 1rem 0 1rem;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #F1A89E;
+  margin: auto auto;
+  padding: 1rem 0 0;
+
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: .75rem;
+  color: #F1A89E;
+}
+
+p {
+  color: #E6E6E6;
+  line-height: 200%;
+}
+
+thead {
+  font-size: 1.5rem;
+  text-decoration: bold;
+  color: #F1A89E;
+}
+
+table {
+  text-align: left;
+  color: #E6E6E6;
+}
+
+/* Element Styles */
+.dark {
+  background-color: #220715;
+  background-color: rgba(34,7,21,0.5);
+}
+
+.light {
+  background-color: #440D29;
+  background-color: rgba(68,13,41,0.5);
+}
+
+.drop-shadow {
+  filter: drop-shadow(0px 10px 6px #440D29);
+}
+
+.small {
+  font-size: .75rem;
+
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 1rem 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  color: #F1A89E;
+}
+
+.nav-link {
+  font-weight: normal;
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #F1A89E;
+}
+
+.active {
+  color: #F1A89E;
+  font-weight: bold;
+}
+
+/* Titles */
+.title {
+  text-align: center;
+  color: #F1A89E;
+  position: relative;
+  top: 20px;
+  padding-bottom: 50px;
+}
+
+.container-title {
+  padding-top: 2.5rem;
+  font-size: 2rem;
+}
+
+/* Images */
+.icon {
+  font-size: 3rem;
+}
+
+.img-bg {
+  background-image: url("../images/bg/DigitalSunrise.webp");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+/*  background-attachment: fixed;*/
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.img-bg2 {
+  background-image: url("../images/circle_ciries/Sunsetter.webp");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.img-bg3 {
+  background-image: url("../images/circle_ciries/Cold Mountain.webp");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.portrait {
+  max-width: 300px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 100%;
+  border-color: white;
+  display: block; width: 100%;
+  margin: auto auto;
+  margin-top: 10rem;
+  /* filter: drop-shadow(0px 10px 6px #440D29); */
+}
+
+.rental-frame {
+  padding: 0, 0, 0, 3rem;
+  width: 80%;
+  height: 600px;
+}
+
+.portrait-2 {
+  max-width: 250px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 100%;
+  border-color: white;
+  /* display: block; width: 100%; */
+  margin: auto auto;
+}
+
+.portrait-link {
+  display: block; width: 29%;
+  padding-top: 2rem;
+}
+
+/* Formatting */
+.align-left {
+  text-align: left;
+}
+
+.center {
+  margin: auto auto;
+  text-align: center;
+}
+
+.container-fluid {
+  padding:  3rem;
+}
+
+.col-12 {
+text-align: center;
+
+}
+
+.row {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.project-links {
+  margin: auto auto;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-size: .75rem;
+}
+
+.social-links {
+  display: inline-block;
+  font-size: 2rem;
+  margin: auto auto;
+}
+
+.copyright {
+  padding-top: 1rem;
+  color: #F1A89E;
+  font-size: .75rem;
+}
+
+.landing {
+  padding-bottom: 10rem;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Animations */
+.fadein {
+  -webkit-animation: 5s ease 0s normal forwards 1 fadein;
+  animation: 5s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    33% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    33% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom:10%;
+  }
+
+  to {
+    margin-bottom:0%;
+  }
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  15px); }
+    100%  { transform: translate(0, 0px); }
+}
+
+.zoom {
+  transition: transform .5s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+
+/* Contact Page */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color:  #220715;
+  color: #F1A89E;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #440D29;
+}
