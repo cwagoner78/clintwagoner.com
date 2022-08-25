@@ -160,6 +160,10 @@ table {
   padding-bottom: 50px;
 }
 
+.cover-1 {
+  width: 50%;
+}
+
 .portrait {
   max-width: 300px;
   border-style: solid;
