@@ -350,7 +350,7 @@ text-align: center;
   .twitch .twitch-chat {
     width: 25%;
     height: auto;
-    position: relative;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
