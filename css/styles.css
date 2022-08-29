@@ -337,10 +337,10 @@ text-align: center;
   height: 100%;
 }
 
-@media screen and (min-width: 850px) {
+/* @media screen and (min-width: 850px) {
   .twitch {
     position: relative;
-  }
+  } */
 
   .twitch .twitch-video {
     width: 75%;
