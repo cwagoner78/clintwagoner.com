@@ -189,16 +189,16 @@ button:hover {
 
 .wrap-bg {
   opacity: 0.15;
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .wrap-bg-2 {
   opacity: 0.20;
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
