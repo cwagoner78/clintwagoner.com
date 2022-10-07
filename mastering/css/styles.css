@@ -178,7 +178,6 @@ button:hover {
   padding-bottom: 50px;
 }
 
-/* test */
 .img-wrap {
   overflow: hidden;
   position: relative;
@@ -188,7 +187,7 @@ button:hover {
 }
 
 .wrap-bg {
-  opacity: 0.15;
+  /* opacity: 0.15; */
   position: relative;
   left: 0;
   top: 0;
@@ -197,7 +196,7 @@ button:hover {
 }
 
 .wrap-bg-2 {
-  opacity: 0.20;
+  /* opacity: 0.20; */
   position: relative;
   left: 0;
   top: 0;
@@ -205,9 +204,9 @@ button:hover {
   height: auto;
 }
 
-.wrap-bg-2:hover {
+/* .wrap-bg-2:hover {
   opacity: 1;
-}
+} */
 
 
 /* Video */
