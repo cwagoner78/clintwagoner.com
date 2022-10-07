@@ -76,7 +76,44 @@
         </div>
       </nav>
 
-      <script type="text/javascript" src="https://form.jotform.com/jsform/220636824939061"></script>
+      <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false">
+      
+          <label for="fname">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..">
+
+          <label for="phone">Phone</label>
+          <input type="text" id="email" name="phone" placeholder="Your phone number..">
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="How can I help you?" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.gmail.com",
+                    Username : "email@gmail.com",
+                    Password : "password",
+                    To : 'email@gmail.com',
+                    From : doc.getElementById("email").value,
+                    Subject : "New Contact Form - CWM",
+                    Body : "Name: " + doc.getElementById("name").value
+                            + "<br> Email: " + doc.getElementById("email").value
+                            + "<br> Phone: " + doc.getElementById("phone").value
+                            + "<br> Message: " + doc.getElementById("message").value
+                    }).then(
+                        message => alert(message)
+                    );
+            }
+        </script>
 
       <footer class="slidein">
           <div class="container-fluid footer" name="social-links">
