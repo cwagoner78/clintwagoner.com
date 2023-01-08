@@ -233,9 +233,25 @@ text-align: center;
 
 .social-links {
   display: inline-block;
-  font-size: 2rem;
   margin: auto auto;
+  font-size: 2rem;
 }
+
+.icon {
+  font-size: 2rem;
+
+}
+
+.icon-2 {
+  font-size: 4rem;
+
+
+}
+
+.icon-3 {
+  font-size: 4rem;
+
+  }
 
 .copyright {
   padding-top: 1rem;

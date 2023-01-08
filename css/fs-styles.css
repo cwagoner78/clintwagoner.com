@@ -1,10 +1,10 @@
 a {
-  color: #000000;
+  color: #808080;
   /* text-decoration: none; */
 }
 
 a:hover {
-  color: #808080;
+  color: #ffffff;
   /* text-decoration: none; */
 }
 
@@ -276,6 +276,7 @@ padding: 2rem;
 .social-links {
   display: inline-block;
   margin: auto auto;
+  font-size: 2rem;
 }
 
 .icon {
@@ -350,6 +351,7 @@ padding: 2rem;
 
 .zoom:hover {
   transform: scale(1.1);
+  color: #ffffff;
 }
   
  
