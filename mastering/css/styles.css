@@ -1,5 +1,5 @@
 a {
-  color: #000000;
+  color: #808080;
   /* text-decoration: none; */
 }
 
@@ -274,6 +274,7 @@ padding: 2rem;
 .social-links {
   display: inline-block;
   margin: auto auto;
+  font-size: 2rem;
 }
 
 .icon {
