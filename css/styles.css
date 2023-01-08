@@ -119,6 +119,8 @@ table {
   font-size: 2rem;
 }
 
+
+
 /* Images */
 .icon {
   font-size: 3rem;
@@ -209,6 +211,13 @@ table {
 
 .container-fluid {
   padding:  3rem;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .col-12 {
