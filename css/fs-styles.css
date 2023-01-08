@@ -169,8 +169,9 @@ button:hover {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
+  /* background-attachment: fixed; */
+  max-width: 100%;
+  height: auto;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -248,7 +249,9 @@ button:hover {
 }
 
 .container-fluid {
+
   padding:  3rem;
+
 }
 
 .col-md-12 {
