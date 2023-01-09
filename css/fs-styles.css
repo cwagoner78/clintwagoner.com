@@ -401,7 +401,7 @@ padding: 2rem;
     --row-height: 400px;
   }
 
-  h2, h3 {
+  h1, h2, h3, p {
     text-align: center;
 
   }
