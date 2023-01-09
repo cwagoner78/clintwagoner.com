@@ -166,16 +166,12 @@ button:hover {
 
 .img-bg-film {
   background-image: url("../images/filmsound.webp");
-  background-position: top;
-  background-size: cover;
+  /* background-position: top; */
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   max-width: 100%;
   height: 550px;
-  margin: 0 auto;
-
-
-
+  margin: 0;
 }
 
 
