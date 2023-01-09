@@ -200,6 +200,7 @@ button:hover {
 
 }
 
+
 .wrap-bg {
   opacity: 0.15;
   position: absolute;
@@ -208,6 +209,7 @@ button:hover {
   width: 100%;
   height: auto;
 }
+
 
 .wrap-bg-2 {
   opacity: 0.20;
