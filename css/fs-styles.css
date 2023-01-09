@@ -175,7 +175,7 @@ button:hover {
   margin: 0;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .img-bg-film {
     background-image: url("../images/filmsound.webp");
     overflow: hidden;
@@ -186,7 +186,7 @@ button:hover {
     max-height: 200px;
     margin: 100px;
   }
-}
+} */
 
 
 .img-wrap {
