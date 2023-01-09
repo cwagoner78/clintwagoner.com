@@ -403,14 +403,13 @@ padding: 2rem;
 
   h1, h2, h3, p {
     text-align: center;
-
   }
 
   .img-bg-film {
     background-image: url("../images/filmsound.webp");
+    background-position: 50%,0%,50%,0%;
     overflow: hidden;
     position: top;
-
     padding: 4rem;
     object-fit: cover;
     max-width: auto;
