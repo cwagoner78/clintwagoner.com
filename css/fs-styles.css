@@ -414,7 +414,7 @@ padding: 2rem;
     padding: 4rem;
     object-fit: cover;
     max-width: auto;
-    height: auto;
+    height: 200px;
     margin: 0;
   }
 
