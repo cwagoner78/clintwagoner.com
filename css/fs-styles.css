@@ -394,12 +394,18 @@ padding: 2rem;
   grid-row: span 2;
 }
 
-/* Anything udner 1024px */
+/* Anything under 1024px */
 @media screen and (max-width: 1024px) {
   .image-grid {
     --num-cols: 2;
     --row-height: 400px;
   }
+
+  h2, h3 {
+    text-align: center;
+
+  }
+
 }
 
 /* Anything udner 612px */
