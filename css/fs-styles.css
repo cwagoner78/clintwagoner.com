@@ -177,6 +177,12 @@ button:hover {
   margin: 0;
 }
 
+.img-bg-aw {
+  background-image: url("../images/film-gallery/AmericanWarriors3.webp");
+
+  margin: 0;
+}
+
 .img-wrap {
   overflow: hidden;
   position: relative;
