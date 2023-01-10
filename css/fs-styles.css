@@ -179,7 +179,13 @@ button:hover {
 
 .img-bg-aw {
   background-image: url("../images/film-gallery/AmericanWarriors3.webp");
-
+  overflow: hidden;
+  position: relative;
+  background-size: 200%;
+  padding: 4rem;
+  object-fit: cover;
+  max-width: 100%;
+  height: 550px;
   margin: 0;
 }
 
