@@ -420,8 +420,8 @@ padding: 2rem;
   }
 
   .img-bg-film {
-    background-image: url("../images/filmsound-small.webp");
-    /* background-position: 50%,0%,50%,0%; */
+    background-image: url("../images/filmsound.webp");
+    background-position: 50%,0%,50%,0%;
 
   }
 
