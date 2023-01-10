@@ -170,7 +170,7 @@ button:hover {
   overflow: hidden;
   position: relative;
   background-size: 200%;
-  padding: 4rem;
+  padding: 10rem;
   object-fit: cover;
   max-width: 100%;
   height: 550px;
