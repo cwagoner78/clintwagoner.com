@@ -419,11 +419,6 @@ padding: 2rem;
     text-align: center;
   }
 
-  .img-bg-film {
-    background-image: url("../images/filmsound.webp");
-    background-position: 50%,0%,50%,0%;
-
-  }
 
   .img-wrap {
     overflow: hidden;
