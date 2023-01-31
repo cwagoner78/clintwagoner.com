@@ -126,7 +126,7 @@ button:hover {
 
 .nav-link {
   font-weight: normal;
-  color: rgb(199, 197, 197);
+  color: #fff;
 }
 
 .nav-link:hover {
@@ -349,7 +349,7 @@ padding: 2rem;
 
 .zoom:hover {
   transform: scale(1.1);
-  color:#ffffff;
+  color:#c2c2c2;
 }
 
 
