@@ -50,6 +50,11 @@ p {
   line-height: 200%;
 }
 
+li {
+  color: #E6E6E6;
+  line-height: 200%;
+}
+
 thead {
   font-size: 1.5rem;
   text-decoration: bold;
@@ -119,7 +124,26 @@ table {
   font-size: 2rem;
 }
 
+.container-title-games {
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  margin-left: auto;
+}
 
+
+/* Buttons */
+.button {
+  background-color: #97003f;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 /* Images */
 .icon {
@@ -276,7 +300,12 @@ text-align: center;
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+
 }
+
+
+
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -337,3 +366,5 @@ text-align: center;
 .zoom:hover {
   transform: scale(1.05);
 }
+
+
