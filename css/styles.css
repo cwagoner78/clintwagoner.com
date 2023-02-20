@@ -298,6 +298,7 @@ text-align: center;
 
 .videoWrapper {
   position: relative;
+  padding-top: 4rem;;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
 
