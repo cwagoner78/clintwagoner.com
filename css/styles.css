@@ -146,6 +146,12 @@ table {
 }
 
 /* Images */
+.responsive {
+  width: 100%;
+  height: auto;
+
+}
+
 .icon {
   font-size: 3rem;
 }
@@ -383,6 +389,39 @@ text-align: center;
 
 .zoom:hover {
   transform: scale(1.05);
+}
+
+/* Anything under 1024px */
+@media screen and (max-width: 1024px) {
+  .image-grid {
+    --num-cols: 2;
+    --row-height: 400px;
+  }
+
+  h1, h2, h3, p {
+    text-align: center;
+  }
+
+
+  .img-wrap {
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+  .wrap-bg {
+    opacity: 0.25;
+  }
+
+}
+
+/* Anything under 612px */
+@media screen and (max-width: 612px) {
+  .image-grid {
+    --num-cols: 1;
+    --row-height: 300px;
+    width:  100%;
+    height: auto;
+  }
 }
 
 

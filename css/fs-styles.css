@@ -151,6 +151,12 @@ button:hover {
 }
 
 /* Images */
+
+.responsive {
+  width: auto;
+  height: auto;
+}
+
 .img-bg {
   background-image: url("../images/set1.webp");
   background-position: top;
@@ -431,7 +437,7 @@ padding: 2rem;
 
 }
 
-/* Anything udner 612px */
+/* Anything under 612px */
 @media screen and (max-width: 612px) {
   .image-grid {
     --num-cols: 1;
