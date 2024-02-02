@@ -1,5 +1,5 @@
 a {
-  color: #808080;
+  color: #ffffff;
   /* text-decoration: none; */
 }
 
@@ -14,11 +14,11 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lobster', cursive;
   line-height: 1;
   font-size: 500%;
   margin-top: 0;
-  color: #898989;
+  color: #ffffff;
   text-shadow: 10px;
 }
 
@@ -28,7 +28,7 @@ h2 {
   font-size: 2rem;
   margin: auto auto;
   padding: 1rem 0 1rem;
-  color: #898989;
+  color: #ffffff;
 }
 
 h3 {
@@ -36,7 +36,7 @@ h3 {
   font-size: 1rem;
   margin: auto auto;
   padding: 1rem 0 0;
-  color: #898989;
+  color: #ffffff;
 
 }
 
@@ -46,7 +46,7 @@ h4 {
 }
 
 p {
-  color: #898989;
+  color: #ffffff;
 
 }
 
