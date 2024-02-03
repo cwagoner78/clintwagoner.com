@@ -26,16 +26,14 @@ h2 {
   font-weight: bold;
   font-size: 1.5rem;
   color: #F1A89E;
-  margin: auto auto;
-  padding: 1rem 0 1rem;
+
 }
 
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   color: #F1A89E;
-  margin: auto auto;
-  padding: 1rem 0 0;
+
 
 }
 
@@ -398,7 +396,7 @@ text-align: center;
     --row-height: 400px;
   }
 
-  h1, h2, h3, p {
+  h1, h2, h3, h4, p {
     text-align: center;
   }
 
@@ -412,6 +410,11 @@ text-align: center;
     opacity: 0.25;
   }
 
+  .button, .btn {
+    place-items: center;
+
+  }
+
 }
 
 /* Anything under 612px */
@@ -421,6 +424,11 @@ text-align: center;
     --row-height: 300px;
     width:  100%;
     height: auto;
+  }
+
+  .button, .btn {
+    place-items: center;
+
   }
 }
 
